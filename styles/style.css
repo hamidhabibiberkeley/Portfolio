@@ -1,0 +1,228 @@
+@font-face{
+    font-family: 'Nocturne Serif';
+    src:url('fonts/NocturneSerif.otf') format('otf');
+}
+@font-face{
+    font-family: 'Proxima Nova';
+    src:url('fonts/proximanova-regular.otf') format('otf');
+}
+@font-face{
+    font-family: 'Proxima Nova';
+    src:url('fonts/proximanova-bold.otf') format('otf');
+    font-weight: bold;
+}
+
+body{
+    margin: 2vw;
+    background-color: #FFFDFD;
+}
+
+.container-casestudy{
+    max-width: 960px;
+    margin: 8rem auto;
+}
+
+.logistics {
+display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+}
+
+.inner-section-wpadding{
+    padding-top:2rem;
+}
+
+.twoColumn{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.threeColumn{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.line{
+    margin: 4rem 0;
+    border-top: 1px solid #D5D6D5;
+}
+
+/******************************************
+Font Styles
+******************************************/
+h1{
+    font-family:'Nocturne Serif';
+    font-size: 3rem;
+    line-height: 1.3em;
+    margin-bottom:0;
+
+}
+h2{
+    font-family:'Proxima Nova';
+    font-size: 2.8rem;
+    line-height: 1.3em;
+    margin-bottom:0;
+
+
+}
+h3{
+    font-family:'Proxima Nova';
+    font-size: 2.2rem;
+    line-height: 1.3em;
+    margin-bottom:0;
+
+
+}
+h4{
+    font-family:'Proxima Nova';
+    font-size: 1.6rem;
+    line-height: 1.3em;
+    margin-top: 0;
+    margin-bottom:0;
+
+}
+p{
+    font-family: 'DM Sans', sans-serif;
+    line-height: 1.5em;
+    font-size: 1rem;
+    color:#282D30;
+}
+b{
+    font-family: 'DM Sans', sans-serif;
+    line-height: 1.5em;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.graySubText{
+    color: #696767;
+}
+
+.graySpacedSectionHeader{
+    letter-spacing: .05rem;
+    color: #757575;
+    margin-bottom: 2rem;
+}
+
+
+/********************************************************
+
+Brightline Specific
+
+*********************************************************/
+
+#BLKeyIntiative {
+    max-width: 100%;
+    height: auto;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    }
+
+#ReefGIF{
+    max-width: 100%;
+    height: auto;
+    background: #FFC890;
+    border-radius: 10px;
+    /*padding: 5%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;*/
+
+}
+.fullSizePrototype{
+    max-width: 100%;
+    height:auto;
+    background: #FFC890;
+    border-radius: 10px;
+}
+
+.fullSizeImage{
+    max-width: 100%;
+    height:auto;
+}
+
+.fullSizeImagewMargin{
+    max-width: 100%;
+    height:auto;
+    margin-top: 2rem;
+    margin-bottom:2rem;
+}
+.researchConclusionImageResizer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    object-fit: cover;
+}
+
+.oneCenteredColumn{
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    max-width:40%;
+}
+
+.twoColumnFullSizeImage{
+    max-width: 80%;
+    width: 80%;
+    height: auto;
+    
+}
+.imagecontainer{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    background:#FFC890;
+    border-radius: 10px;
+}
+
+.testingContainer{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    align-self: stretch;
+    max-width: 960px;
+}
+.testingSubContainer{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+}
+
+.image-resizer{
+    flex-shrink: 0;
+    width: 25%; /* Set the width of the image to 50% of the container */
+    max-width: 50%; /* Set the maximum width to ensure it doesn't exceed 50% */
+    height: 25%;
+    object-fit: cover;
+    margin-left: 5rem;
+}
+
+.paddedText{
+    display: flex;
+    padding: 0.625rem;
+    align-items: flex-start;
+    gap: 0.625rem;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 0.375rem;
+    background: #037971;
+}
+
+.paddedTextRow{
+    display: flex;
+    padding: 0.625rem 0;
+    align-items: flex-start;
+    gap: 1.5rem;
+    align-self: stretch;
+}
+.inPaddingText{
+    line-height: 1.5em;
+    font-size: 1rem;
+    color: white;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
